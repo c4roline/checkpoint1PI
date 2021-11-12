@@ -22,7 +22,7 @@ function pipoca(tempo){
     }
   }
 
-//(pipoca (19));
+//pipoca (19);
 
 function macarrao(tempo){
     if (tempo>3*tempoMacarrao) {
@@ -38,7 +38,7 @@ function macarrao(tempo){
         console.log('Prato inexistente');
     }
   }
-  //(macarrao (27))
+  //macarrao (27)
 
   function carne(tempo){
     if (tempo>3*tempoCarne) {
@@ -55,7 +55,9 @@ function macarrao(tempo){
     }
   }
 
-  //(carne (21))
+  //carne (21)
+
+
   function feijao(tempo){
     if (tempo>3*tempoFeijao) {
         console.log('Kabumm!')
@@ -70,7 +72,7 @@ function macarrao(tempo){
         console.log('Prato inexistente');
     }
   }
-  //(feijao (39))
+  //feijao (39)
 
   function brigadeiro(tempo){
     if (tempo>3*tempoBrigadeiro) {
@@ -87,4 +89,4 @@ function macarrao(tempo){
     }
   }
 
-  (brigadeiro (19))
+  brigadeiro (19)
