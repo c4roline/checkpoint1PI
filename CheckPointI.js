@@ -24,6 +24,7 @@ function pipoca(tempo){
 
 //pipoca (19);
 
+
 function macarrao(tempo){
     if (tempo>3*tempoMacarrao) {
         console.log('Kabumm!')
@@ -38,7 +39,9 @@ function macarrao(tempo){
         console.log('Prato inexistente');
     }
   }
-  //macarrao (27)
+
+//macarrao (27)
+
 
   function carne(tempo){
     if (tempo>3*tempoCarne) {
@@ -72,7 +75,9 @@ function macarrao(tempo){
         console.log('Prato inexistente');
     }
   }
-  //feijao (39)
+
+//feijao (39)
+
 
   function brigadeiro(tempo){
     if (tempo>3*tempoBrigadeiro) {
